@@ -24,19 +24,23 @@ def get_min_salary(path: str) -> int:
 
 def matches_salary_range(job: Dict, salary: Union[int, str]) -> bool:
     try:
-        verify_exists = "min_salary" not in job and "max_salary" not in job
-        verify_num = job["min_salary"] < job["max_salary"]
-        verify_type_num = isinstance(job["min_salary"], int)
-        if verify_exists and verify_num and verify_type_num:
-            raise ValueError
+        verify_exists = "min_salary" not in job or "max_salary" not in job
+        if verify_exists:
+            raise ValueError("seila vo dormi")
 
-        if salary < job["max_salary"] and salary > job["min_salary"]:
-            return True
-        else:
-            return False
-    except ValueError:
-        print("erro aqui hein")
-        raise ValueError
+        min_salary = int(job["min_salary"])
+        max_salary = int(job["max_salary"])
+        salary_num = int(salary)
+
+        verify_num = min_salary > max_salary
+
+        if verify_num:
+            raise ValueError("seila")
+
+        return min_salary <= salary_num <= max_salary
+
+    except (ValueError, KeyError, TypeError):
+        raise ValueError("seila")
 
 
 def filter_by_salary_range(
