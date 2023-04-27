@@ -36,4 +36,5 @@ def filter_by_job_type(jobs: List[Dict], job_type: str) -> List[Dict]:
     raise NotImplementedError
 
 
-read("data/jobs.csv")
+if __name__ == "__main__":
+    read
