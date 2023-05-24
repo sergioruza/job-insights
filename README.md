@@ -38,11 +38,9 @@ com os objetivos gerais de firmar conhecimentos em Python.
 
 ### Descrição do ambiente técnico
 
-O sistema é composto de Linguagem, frameworks e bibliotecas principais:
-* **F1** - Python.
-* **F2** - Pytest.
-* **F3** - black.
-* **F4** - flake8.
+O sistema é composto de Linguagem, frameworks e bibliotecas principais:  
+[![python][python]][python-url]
+[![pytest][pytest]][pytest-url]
 
 ### Requisitos Funcionais
 Respeitando a proposta, o sistema deverá atender os seguintes requisitos:
@@ -64,5 +62,13 @@ Respeitando a proposta, o sistema deverá atender os seguintes requisitos:
 - Escrever módulos e utilizar em outros arquivos;
 
 </details>
+
+
+[python]: https://img.shields.io/badge/-python-3776AB?style=for-the-badge&logo=python&logoColor=black
+[python-url]: https://www.python.org/
+
+[pytest]: https://img.shields.io/badge/-pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=black
+[pytest-url]: https://docs.pytest.org/en/7.3.x/
+
 
 
