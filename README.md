@@ -1,7 +1,7 @@
 # <h1 align="center">💼 job-insights 💼</h1>
 <div align="center">
   <figure>
-    <img width=700 src="https://img.freepik.com/vetores-gratis/a-caca-de-trabalho_23-2147503011.jpg?w=740&t=st=1684963636~exp=1684964236~hmac=916e2fe532590cab33d577fadd53d47c8384142dd8e72211a23112ba0f4fa33e" alt="Imagem" />
+    <img width=600 src="https://img.freepik.com/vetores-gratis/a-caca-de-trabalho_23-2147503011.jpg?w=740&t=st=1684963636~exp=1684964236~hmac=916e2fe532590cab33d577fadd53d47c8384142dd8e72211a23112ba0f4fa33e" alt="Imagem" />
   </figure>
 </div>
 
