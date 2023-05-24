@@ -38,8 +38,7 @@ com os objetivos gerais de firmar conhecimentos em Python.
 
 ### Descrição do ambiente técnico
 
-O sistema é composto de uma lógica com Linguagem, frameworks e bibliotecas principais:
-> Back-End
+O sistema é composto de Linguagem, frameworks e bibliotecas principais:
 * **F1** - Python.
 * **F2** - Pytest.
 * **F3** - black.
